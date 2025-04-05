@@ -5,7 +5,7 @@ import {StringUtils} from "@ensdomains/ens-contracts/utils/StringUtils.sol";
 
 import {IL2Registry} from "./interfaces/IL2Registry.sol";
 
-contract BullShipAgentRegistrar {
+contract BullShipAgentL2Registrar {
     using StringUtils for string;
 
     event NameRegistered(string indexed label, address indexed owner);

@@ -8,8 +8,8 @@ if [ -z "$ETHERSCAN_API_KEY" ] || [ -z "$L2_REGISTRY_ADDRESS" ] || [ -z "$L2_RPC
 fi
 
 # Set contract details
-CONTRACT_NAME="BullShipAgentRegistrar"
-CONTRACT_FILE="src/BullShipAgentRegistrar.sol"
+CONTRACT_NAME="BullShipAgentL2Registrar"
+CONTRACT_FILE="src/BullShipAgentL2Registrar.sol"
 
 # Build the project
 echo "Building the project..."
